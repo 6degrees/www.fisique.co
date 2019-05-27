@@ -1,5 +1,8 @@
 # Fisique.co WordPress
 
+![alt Fisique Homepage](https://i.imgur.com/6Zb4anj.jpg)
+
+
 Fisique is a female fitness studio in Khobar. This repository contains modified html files for the website for production use.
 
 ## Usage
