@@ -1,5 +1,7 @@
 # Fisique.co HTML
 
+![alt Fisique Homepage](https://i.imgur.com/6Zb4anj.jpg)
+
 Fisique is a female fitness studio in Khobar. This repository contains html files for the website for development use only.
 
 ## Usage
