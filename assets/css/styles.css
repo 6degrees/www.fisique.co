@@ -1074,10 +1074,10 @@ section#pp-special{
     font-size: 3rem;
   }
   nav.navbar-dark .navbar-collapse{
-    background:rgba(255,255,255,0.85);
+    background:rgba(255,255,255,0.9);
   }
   nav.navbar-light .navbar-collapse{
-    background:rgba(255,255,255,0.85);
+    background:rgba(255,255,255,0.9);
   }
 
   .navbar-nav .nav-link{
@@ -1150,7 +1150,7 @@ section#pp-special{
   }
   footer nav .nav-item.social .nav-link {
     font-size: 0.8rem;
-    font-family:'cr';
+    font-family:'cb';
   }
 
   footer nav .container-fluid .navbar-collapse.collapse.show:parent {
@@ -1249,9 +1249,9 @@ section#pp-special{
     position:relative;
     margin: 0 auto;
     max-width:none;
-    min-height: 300px;
-    height: 400px;
-    max-height: 50vh;
+    min-height: unset;
+    height: 45vh;
+    max-height: 400px;
   }
   section#trainers .trainers .card img{
     width:100%;
@@ -1260,18 +1260,27 @@ section#pp-special{
     z-index:1;
   }
 
-  section#trainers .trainers .card-body{
-
-  }
   section#packages .card{
     margin-top:0;
     margin-bottom:1rem;
     opacity: 1;
-    width:80%;
+    width:90%;
     background-color: rgba(96,43,54,0.83);
     z-index: 1;
     margin: 0 auto;
   }
+
+  section#packages .card .card-body{
+    padding: 0.5rem;
+    padding-top: 70px;
+  }
+
+  section#packages .card .card-title {
+    background-position: 50% 100%;
+    height: 70px;
+    padding: 18px;
+    font-size: 1.4rem;
+}
   section#packages .card:hover,
   section#packages .card.active{
     transform: none;
@@ -1282,7 +1291,7 @@ section#pp-special{
     background-color: #712A39;
   }
   section#packages .text {
-    margin-bottom:2rem;
+
   }
   section#packages .text h1 {
     margin:0 auto 1rem;
@@ -1318,7 +1327,7 @@ section#pp-special{
   section#packages .card ul {
       margin: 0 auto;
       text-align: center;
-      font-size: 1rem;
+      font-size: 0.9rem;
       color:#ffffff;
   }
   section#packages .card ul li {
@@ -1400,9 +1409,9 @@ section#pp-special{
     font-size:1rem;
   }
   section#app .text ul li{
-    font-size:1rem;
+    font-size:0.9rem;
     font-family: 'cb';
-    margin-bottom:0.2rem;
+    margin-bottom:0.4rem;
   }
 
   section#contact {
