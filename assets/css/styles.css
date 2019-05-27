@@ -1115,7 +1115,7 @@ section#pp-special{
     padding-right:0;
     padding-left:0;
   }
-  header nav ul {
+  nav ul {
     padding: 1rem 0;
   }
   header nav ul li {
@@ -1136,14 +1136,25 @@ section#pp-special{
     right:-30px;
   }
 
-  footer nav .nav-item, footer .navbar-brand {
-    margin-left: 0;
+  footer .navbar-brand{
+    margin-left:0;
+  }
+  footer nav .nav-item {
+    padding: 0;
   }
   footer nav .navbar-collapse{
-    margin-top:1rem;
+    margin-top:0.25rem;
   }
   footer nav ul {
     text-align:center;
+  }
+  footer nav .nav-item.social .nav-link {
+    font-size: 0.8rem;
+    font-family:'cr';
+  }
+
+  footer nav .container-fluid .navbar-collapse.collapse.show:parent {
+    background:red;
   }
   footer.article{
     text-align:center;
@@ -1345,7 +1356,28 @@ section#pp-special{
     min-height:30vh;
     background-size:50%;
     background-position: 50% 10%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
   }
+
+  section#app .images:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(250,193,168,0.9);
+    background: rgb(122,50,64);
+    background: -moz-linear-gradient(180deg, rgba(122,50,64,0) 0%, rgba(250,193,168,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(122,50,64,0) 0%, rgba(250,193,168,1) 100%);
+    background: linear-gradient(180deg, rgba(122,50,64,0) 0%, rgba(250,193,168,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a3240",endColorstr="#fac1a8",GradientType=1);
+}
   section#app .text h1{
     font-size:1.2rem;
     letter-spacing: normal;
@@ -1356,6 +1388,7 @@ section#pp-special{
   section#app .text{
     text-align:left;
     padding:1rem;
+    padding-top: calc(20vh - 10%);
 
   }
   section#app .text .download_stores img{
@@ -1368,6 +1401,7 @@ section#pp-special{
   }
   section#app .text ul li{
     font-size:1rem;
+    font-family: 'cb';
     margin-bottom:0.2rem;
   }
 
@@ -1388,12 +1422,16 @@ section#pp-special{
     display:inline-block;
     letter-spacing: normal;
     font-size:1.2rem;
+    text-transform: capitalize;
+    background: transparent;
+    color: white;
+    font-family: 'cb';
   }
   section#contact .left .table {
       width: 80%;
   }
   section#contact .left .form-group {
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.5rem;
   }
   section#contact .left .form-group small {
     padding: 0 .75rem;
@@ -1405,7 +1443,7 @@ section#pp-special{
   }
   section#contact .form-control {
     height: calc(1.5em + .75rem + 2px);
-    padding: .25rem .5rem;
+    padding: .125rem .5rem;
     line-height: 1.2;
     font-size:0.9rem;
   }
