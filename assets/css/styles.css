@@ -899,7 +899,7 @@ section#contact .get-in-touch .middle{
 
 }
 section#contact .get-in-touch .middle h2{
-  padding:6px;
+  padding:0.5rem;
   background:rgba(255,255,255,0.7);
   width:fit-content;
   margin:0 auto;
@@ -1482,7 +1482,8 @@ section#pp-special{
   }
   section#contact .get-in-touch{
     position:relative;
-    margin:1rem auto;
+    margin:1vh auto;
+    font-size: unset;
 
   }
   section#contact .get-in-touch .middle{
@@ -1494,6 +1495,9 @@ section#pp-special{
     display:inline-block;
     letter-spacing: normal;
     font-size:1.2rem;
+    background:transparent;
+    color:white;
+    font-family: 'cb';
   }
   section#contact .left .table {
       width: 80%;
@@ -1510,8 +1514,7 @@ section#pp-special{
     padding: 0.5rem 0rem;
     border-bottom: 4px solid #9d3e52;
 }
-  .form-control {
-
+  section#contact .form-control {
     height: calc(1.5em + .75rem + 2px);
     padding: .25rem .5rem;
     line-height: 1.2;
