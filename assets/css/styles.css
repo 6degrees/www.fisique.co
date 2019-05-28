@@ -1229,7 +1229,7 @@ section#pp-special{
   section#trainers {
   }
   section#trainers .container h1{
-    font-size: 10vw;
+    font-size: calc(10vw - 10%);
     letter-spacing: 0.05em;
     background: linear-gradient(to right, #d19fac 0%, #80273A 100%);
       -webkit-background-clip: text;
